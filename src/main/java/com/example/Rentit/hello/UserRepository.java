@@ -1,8 +1,8 @@
-package hello;
+package com.example.Rentit.hello;
 
 import org.springframework.data.repository.CrudRepository;
 
-import hello.User;
+import com.example.Rentit.hello.User;
 
 //this will be auto implemented by the spring into the bean named userRepository
 

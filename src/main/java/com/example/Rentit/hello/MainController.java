@@ -1,4 +1,4 @@
-package hello;
+package com.example.Rentit.hello;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import hello.User;
-import hello.UserRepository;
+import com.example.Rentit.hello.User;
+import com.example.Rentit.hello.UserRepository;
 
 @Controller //this class is the controller class.
 @RequestMapping(path="/") //this means the url starts with /(after application path)
